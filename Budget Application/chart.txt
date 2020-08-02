@@ -1,0 +1,35 @@
+Init() from AppController :
+	-> displayMonth() from UIController 			=> tells the current date
+	-> displayBudget() from UI Controller			=> displays initial budget
+	-> setupEventListeners() from AppController		=> specifies all the event listeners
+		-> ctrlAddItem() from AppController     		=>  When button clicked   
+			-> getInput() from UIController.       	=> retrieve type, desc, value
+			-> addItem() from BudgetController  	=> Adds item into data structure	
+			-> addListItem() from UI Controller 	=> replace html string with id, des, val
+			-> clearFields() from UIController 		=> Clears the input fields
+			-> updateBudget() from AppController 	=> calculates and updates the budget
+				->calculateBudget() from BudgetController	
+					->calculateTotal()
+				-> getBudget from BudgetController	=> gives the object with all budget details
+				-> displayBudget from UIController
+			-> updatePercentages() from AppController 
+				-> calculatePercentages() from BudgetController
+					-> calcPercentage from BudgetController
+				-> getPercentages() from BudgetController
+					-> getPercentage() from BudgetController
+				-> displayPercentages() from UIController
+		-> ctrlDeleteItem() from AppController
+			-> deleteItem() from BudgetController
+			-> deleteListItem() from UIController
+			-> updateBudget() from AppController 	=> calculates and updates the budget
+				->calculateBudget() from BudgetController
+					->calculateTotal()
+				-> getBudget from BudgetController	=> gives the object with all budget details
+				-> displayBudget from UIController
+			-> updatePercentages() from AppController 
+				-> calculatePercentages() from BudgetController
+					-> calcPercentage from BudgetController
+				-> getPercentages() from BudgetController
+					-> getPercentage() from BudgetController
+				-> displayPercentages() from UIController
+		-> changedType() from UIController 				=> to focus field with red
