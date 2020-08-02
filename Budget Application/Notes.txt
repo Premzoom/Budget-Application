@@ -1,0 +1,104 @@
+Budget Application
+
+TODO 
+1. Add event Handler  
+2. Get input Values
+3. Add the new input to our data structure
+4. Add the new input into UI
+5. Calculate new budget
+6. Update into UI
+
+Structuring Code with Modules :
+
+Modules:
+- Important aspect of any robust application's architecture
+- keeps units of code organised
+- Encapsulate some data into privacy and expose others publicly
+
+UI Module :
+- Get input Values
+- Add the new input into UI
+- Update into UI
+
+Data Module :
+- Add the new input to our data structure
+- Calculate new budget
+
+Controller Module:
+- Add event Handler 
+
+Section 1:
+- Module pattern
+- Private, public, encapsulation and seperation of concerns
+
+Section 2:
+- Event Listeners for key press
+- How to use keypress objects
+
+Section 3:
+- How to read input data from HTML elements
+
+Section 4:
+- Creating Initialisation function
+
+Section 5:
+- How to choose function constructor
+- How to set proper data structure for budget controller
+
+Section 6:
+- Adding a new item into budget controller data structure
+- Avoiding conflict in the data structure
+
+Section 7:
+- Adding new Item into UI (DOM Manipulation) in Income list and Expense list
+
+Section 8:
+- Clearing HTML input fields
+
+Section 9:
+- Convert field input to numbers
+- Prevent false inputs
+
+Section 10:
+- Updating values into budget controller
+
+Section 11:
+- budget and total values into UI
+
+
+TODO list 
+
+1. Add a event handler
+2. Delete the item from data structure
+3. Delete item from UI
+4. Recalculate budget
+5. Update into UI
+
+Section 12:
+- project planning 
+
+Event Delegation :
+
+Event Bubbling -> Target Element -> Event Delegation
+
+Use cases of Event delegation:
+1. When we have lot of child elements
+2. When we want a event handler attached to element that is not in DOM when page is loaded
+
+Section 12:
+- How to use event delegation
+- How to use parent node property for DOM traversing
+
+Section 13:
+- delete the item from Budget Controller
+
+Section 14:
+- remove element from DOM
+
+TODO :
+
+- Calculate expenses percentage
+- Update Percentages in UI
+- Display the current month and year
+- Number formatting
+- Improve input field UX
